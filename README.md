@@ -11,7 +11,7 @@ http://micropython.org/download
 
 2.)Instalar ESPTOOL en Python
 
-sudo pip install esptool
+	sudo pip install esptool
 
 3.)Conectar Microcontrolador mediante USB y saber en que puerto está conectado
 desde el terminal podemos escribir /dev/ttyUSB y presionar tab para ver alternativas.
@@ -26,9 +26,5 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
 
 	esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32-20190125-v1.10.bin
 
-
-
-
-
-
-
+CONEXIONES USADAS
+https://docs.google.com/presentation/d/1JJ7P3rXBw_9NoUfRPajAFCYidjJ14HqCbiZjRbEVLbo/edit?usp=sharing
