@@ -1,7 +1,10 @@
 Instalación de MicroPython para ESP8266 ESP32
--Preferible en una distribución de GNU/LINUX
--Microcontrolador ESP8266 o ESP32
--Python instalado
+
+Preferible en una distribución de GNU/LINUX
+
+Microcontrolador ESP8266 o ESP32
+
+Python instalado
 
 1.)Descargar micropython acuerdo a Microcontrolador--
 http://micropython.org/download
