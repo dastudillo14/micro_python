@@ -20,7 +20,7 @@ desde el terminal podemos escribir /dev/ttyUSB y presionar tab para ver alternat
 
 5.)Una vez instaldo el ESPTOOL, escribimos en el terminal para flashear el firmware por defecto del MicroControlador
 
-esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
+	esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
 
 6.)Una vez terminado el proceso instalamos el firmware descargado, se detalla la ruta y nombre del archivo descargado y el nombre del chip(opcional).
 
